@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="65px" viewBox="0 0 86 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFA31C" stop-opacity="0.61" offset="0%"></stop>
+            <stop stop-color="#B030FF" stop-opacity="0.61" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="78" height="57" rx="9"></rect>
+        <filter x="-9.0%" y="-8.8%" width="117.9%" height="124.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.149852833 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-4" points="0 0 27 0 27 33 0 33"></polygon>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="registrate-copy" transform="translate(-1096.000000, -1061.000000)">
+            <g id="Group-5" transform="translate(1100.000000, 1063.000000)">
+                <g id="Rectangle-Copy-16">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="Group-3" transform="translate(39.500000, 28.500000) scale(-1, -1) rotate(180.000000) translate(-39.500000, -28.500000) translate(26.000000, 12.000000)">
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M18.5140809,5.3413673 C20.4723669,2.95432977 20.2930292,0.780938982 20.2356483,0 C18.5068986,0.103141635 16.5055834,1.20824572 15.3650325,2.57123037 C14.1097199,4.0299667 13.3708866,5.83498505 13.5286904,7.86839033 C15.4009052,8.01573931 17.108121,7.02850381 18.5140809,5.3413673 L18.5140809,5.3413673 Z M22.574118,17.4386574 C22.5597664,14.7348182 23.7505287,12.6940495 26.1607309,11.1910925 C24.8121647,9.20925807 22.7749639,8.11888094 20.0850139,7.9052342 C17.5385161,7.69893768 14.7553126,9.43028154 13.7367186,9.43028154 C12.6607309,9.43028154 10.1931478,7.97890868 8.25638281,7.97890868 C4.25372653,8.04520645 0,11.2574036 0,17.7922896 C0,19.7225533 0.344323809,21.7166646 1.03294564,23.7746369 C1.95111667,26.478476 5.26515112,33.1091535 8.72263771,32.9986351 C10.5302894,32.9544278 11.807123,31.6798711 14.1599314,31.6798711 C16.4410202,31.6798711 17.6246003,32.9986351 19.6402672,32.9986351 C23.1264571,32.9470643 26.1248582,26.920523 27,24.2093071 C22.3230607,21.9475149 22.574118,17.5786429 22.574118,17.4386574 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-5)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

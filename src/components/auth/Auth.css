@@ -1,0 +1,125 @@
+/* HOME */
+.hero {
+  width: 100vw;
+  height: calc(100vh);
+  background-image: url(../../assets/lineas2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__div {
+  padding-left: 8rem;
+  padding-top: 7rem;
+  width: 25vw;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.hero p {
+  font-family: helveticaLight;
+  font-size: 1.2rem;
+}
+
+.hero form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero form input {
+  padding: 0.5rem 1rem 1rem 1rem;
+  margin: 1rem 0;
+  border: 0.5px solid #adadad;
+  border-radius: 5px;
+}
+
+.hero form a {
+  color: #287afe;
+  text-decoration: none;
+  margin-bottom: 3rem;
+}
+
+.hero form button {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 4rem;
+  border-radius: 25px;
+  border: none;
+  background-color: #287afe;
+  color: white;
+  font-size: 1rem;
+}
+
+/* RECUPERAR */
+
+.recuperar {
+  width: 100vw;
+  height: calc(100vh);
+  background-image: url(../../assets/lineas3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recuperar h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  font-family: helveticaBold;
+  text-align: center;
+}
+
+.recuperar p {
+  font-family: helveticaMedium;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+
+.recuperar form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recuperar form input {
+  padding: 0.5rem 1rem 1rem 1rem;
+  margin: 1rem 0;
+  border: 0.5px solid #adadad;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.recuperar form button {
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem 4rem;
+  border-radius: 25px;
+  border: none;
+  background-color: #287afe;
+  color: white;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .hero__div {
+    padding: 7rem 3rem;
+    width: auto;
+  }
+
+  .recuperar h1 {
+    font-size: 2.6rem;
+    padding: 0 1rem;
+  }
+
+  .recuperar p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    padding: 0 1rem;
+  }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="65px" viewBox="0 0 86 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="1.75212138%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#AB5EFF" stop-opacity="0.61" offset="0%"></stop>
+            <stop stop-color="#2769FF" stop-opacity="0.745297305" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="78" height="57" rx="9"></rect>
+        <filter x="-9.0%" y="-8.8%" width="117.9%" height="124.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.147618861 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="registrate-copy" transform="translate(-987.000000, -1061.000000)">
+            <g id="Group-7" transform="translate(991.000000, 1063.000000)">
+                <g id="Rectangle-Copy-15">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <text id="VISA" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="25" font-weight="400" fill="#FFFFFF">
+                    <tspan x="11" y="38">VISA</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
